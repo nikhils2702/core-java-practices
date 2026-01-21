@@ -1,0 +1,71 @@
+What are access Modifier?
+=> In java, access modifier controls the visibility and accessibility variables, methods and classes.
+
+Types of Access modifiers?
+=> 1. Privet : Whatever Privet Is Accessible only Within Same Class. 
+   2. Public :
+   3. Protected :
+   4. Default : (Whenever we do not Provide Access Modifier It Mens we are using default access Modifier )
+
+                            --------------------
+   AccessModifier,   Class,  Package,  Subclass (Diff Package),  World (Everywhere)
+
+          Public,     Yes,       Yes,        Yes,                   Yes
+          Protected,  Yes,     Yes,         Yes,                    No
+          Default,    Yes,      Yes,         No,                    No
+          Private,    Yes,      No,          No,                    No
+                             -------------------
+
+Relationship
+
+1. IS- A
+2. HAS-A
+
+1.  IS-A relationship is achieved using oop.Inheritance
+
+Nexon IS-A Car (Child Class IS-A Parent Class)
+
+Class Car{
+   void applyBreak(){}
+   void startEngine(){}
+   }
+Class Nexon extends Car{}
+}
+
+  Note: When we are using 1 public class in another package we must first import that class.
+
+
+2. HAS-A (relationship is based upon Usage.):
+     => When we have two classes which does not share parent/child relationship then we can create object of
+    1 class in another class and that object we can access method variable that class.
+
+Class Car{
+   void applyBrak(){}
+   psvm(){
+      Engine obj = new Engine();
+         obj.startEngine();
+   }
+}
+
+Class Nexon extends Car{
+
+}
+
+Class Engine{
+  void startEngine(){  }
+}
+
+
+Sub Class => Child class (using extended keyword)
+
+
+
+
+
+
+
+
+
+
+
+
