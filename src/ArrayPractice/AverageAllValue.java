@@ -11,6 +11,6 @@ public class AverageAllValue {
         }
 
         int average = Add/a.length;
-        System.out.println("Average of all numbers is: "+ average);
+        System.out.println("Average of all  is: "+ average);
     }
 }
