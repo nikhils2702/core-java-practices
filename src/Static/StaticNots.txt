@@ -1,0 +1,65 @@
+
+1. What is static in java?
+=> Keyword
+
+ -static variable stores in heap area.
+ -static variable access by using class name
+ -In java declare static keyword, this is related to class.
+ -Static keyword is Non-access modifier.
+
+------------------
+STATIC VARIABLES:
+
+
+
+
+------------------
+RULES (static methode):
+   1. static methode belongs to the class not an object.
+   2. Static methode can be accessed directly by class name and don't need by object.
+   3. Static methode can access only static data. it cannot access non-Static data.
+   4. Static methode call only static methods and cannot call a non-static methode.
+   5. Static methode cannot refer to this or super keyword.
+
+
+
+Method
+class (inner class/ nested class)
+variables (global variable/ class laval variable)
+block
+
+
+Whatever static it belongs to the class and not to a specific object of
+a class.(static variable access through class not an object)
+
+
+All object of class share same copy of static variables.
+
+=> To Access static, we don't need an object of that class.
+
+context
+
+static
+non-static
+
+
+
+2. Why we need static in java?
+=> static variable are used for memory management.
+
+
+
+instance vs static
+
+
+
+------------------------------
+STATIC BLOCK:
+
+   1. Static block execute automatically when tha class is loaded in the memory.
+   2. multiple static block create in one class.
+   3. Static block execute one by one sequence(Top to Bottom).
+   4. Initialize static member inner side of static block, then initialize in the static block
+
+  Static block is executed at class loading. hence at the class loading if we want to preform any activity,
+  we have to define that inside the static block. e.g. - Native methods

@@ -7,13 +7,18 @@ abstract class WayOfEating{
 }
 
 class IndianWayEating extends WayOfEating{
+
     void eat(){
+
         System.out.println("Indian people use their hands for eating");
     }
 }
 
+
 class WesternWayEating extends WayOfEating{
+
     void eat(){
+
         System.out.println("Western people use their spoon for eating");
     }
 }

@@ -1,0 +1,16 @@
+What is constructor in java?
+=> Type of methode or block of code, used to initialize to object of class.
+
+
+
+Difference between constructor and methode
+ -No return type.
+ -class name and constructor name must be same.
+ - No need to call constructor of class, it will get called as soon as we create an object.
+
+Why need of constructor in java?
+
+Type of constructor
+1. Default constructor
+2. Parametrize constructor
+3. No argument constructor
