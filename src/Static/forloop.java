@@ -1,4 +1,4 @@
-package forloop;
+package Static;
 
 public class forloop {
 }
