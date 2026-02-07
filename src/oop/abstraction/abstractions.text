@@ -2,17 +2,21 @@ What is abstraction?
 : Abstraction is process of hiding internal implementation details and showing only the essential
 features or functionalities to the user.
 
+Showing essential functionality/features and hiding implementation details.
+
 e.g. : car the internal implementation like gear,engine; while essential features steering, Breaks
 
 
+
 Why we need abstraction?
+security,
 
 
-Why abstract class crate object of that class?
-=> It is a incomplete methode of that class.
+Why abstract class cannot crate object of that class?
+=> It is a incomplete methode of that class.(No.you cannot create an object of an abstract class directly)
 
 
-now to achieve abstraction?
+How to achieve abstraction?
 1) abstract class (0-100% abstraction achieve)
 2) Interface (100% abstraction achieve)
 
@@ -30,7 +34,7 @@ Note:
 
 
 
-Abstract class rules:
+Abstract class RULES:
 
 1) It's not mandatory to have abstract method in abstract class.
 

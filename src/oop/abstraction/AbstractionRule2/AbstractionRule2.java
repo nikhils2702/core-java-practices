@@ -1,4 +1,4 @@
-package oop.abstraction;
+package oop.abstraction.AbstractionRule2;
 
 abstract class Vehicle{
     public abstract void drive();
@@ -8,7 +8,7 @@ abstract class Vehicle{
     }
 }
 
-class Car extends Vehicle{
+abstract class Car extends Vehicle{
     public void derive(){
         System.out.println("Start the car");
     }
@@ -17,7 +17,11 @@ class Car extends Vehicle{
 public class AbstractionRule2 {
 
     public static void main(String[] args){
-        Car obj = new Car();
-        obj.drive();
+        Car obj = new Car(){
+            public void drive(){
+                System.out.println("Start the drive");
+            }
+        };
+
     }
 }
