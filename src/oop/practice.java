@@ -1,9 +1,13 @@
 package oop;
 
-abstract class animal{
+abstract class Animal {
+  public Animal(){
+      System.out.println("Hello");
+    }
+
     abstract void eat();
 }
-class Cat extends animal{
+class Cat extends Animal {
     void eat(){
         System.out.println("Cat is eating");
     }
@@ -11,7 +15,11 @@ class Cat extends animal{
 
 public class practice {
     public static void main(String[] args) {
-        animal obj = new Cat();
+        Animal obj = new Cat();
         obj.eat();
     }
 }
+
+
+
+

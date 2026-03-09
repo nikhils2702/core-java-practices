@@ -1,0 +1,28 @@
+
+What is interface?
+
+
+Why need Interface in java?
+=> Interface use  100% achieve abstraction.
+
+
+Relation between interface and class
+    - one class 'extends' one class
+    - one class 'implements' multiple Interface.
+
+
+------------------------
+Interface RULES:
+    - one Interface 'extends' another interface.
+
+    - Interface contains only abstract methode.
+
+    - We cannot create object of Interface.
+
+    - If one abstract class one or more Interfaces, then it's not mandatory
+    for that abstract child class to provide implementation for abstract method of Interface.
+
+    - If one non-abstract class implements one or more interfaces, then its mandatory
+    for that child class to provide methode implementation for abstract methode of interface.
+
+

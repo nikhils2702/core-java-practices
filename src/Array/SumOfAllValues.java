@@ -1,4 +1,4 @@
-package ArrayPractice;
+package Array;
 
 public class SumOfAllValues {
     public static void main(String[] args) {

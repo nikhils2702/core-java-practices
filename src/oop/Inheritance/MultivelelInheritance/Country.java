@@ -18,9 +18,9 @@ class District extends State{
 class Taluka extends District{
     void TalukaPopulation(){
         System.out.println("Population of Taluka is a 1.62 L ");
-
     }
 }
+
 class Village extends Taluka{
     void VillagePopulation(){
         System.out.println("Population of Village is a 4 Thousand");
@@ -28,7 +28,7 @@ class Village extends Taluka{
 
     public static void main(String[] args){
         Village obj = new Village();
-       obj.CountryPopulation();
+        obj.CountryPopulation();
         obj.StatePopulation();
         obj.DistrictPopulation();
         obj.TalukaPopulation();

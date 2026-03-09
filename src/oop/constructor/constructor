@@ -1,6 +1,6 @@
+
 What is constructor in java?
 => Type of methode or block of code, used to initialize to object of class.
-
 
 
 Difference between constructor and methode
@@ -8,9 +8,59 @@ Difference between constructor and methode
  -class name and constructor name must be same.
  - No need to call constructor of class, it will get called as soon as we create an object.
 
+
+ Note: Even when we don't provide any constructure in class, JVM will provide default constructure.
+ Note: First line in my constructor is called to parent class No-arg Constructor, you don't need
+       add this line.
+
+      - memory allocated to object always runtime.
+      - JVM provide Default constructor, not provide paramitrise constructor.
+
+Note - Non-access modifiers cannot be applied with constructors in Java. By mistake,
+       if you apply any other modifiers with constructor except these three access modifiers,
+       you will get a compile-time error.
+
+       you not apply privet access modifier with constructor.
+
+
+
+
+Characteristics-
+       - The constructor should not have any return type even void also because if there is a return type,
+        JVM would consider as a method, not a constructor.
+
+        - A constructor is automatically called and executed by JVM at the time of object creation.
+        - The access modifiers of the default constructor should be the same as the access modifier of the class.
+
+
+
+
+
+
 Why need of constructor in java?
 
 Type of constructor
-1. Default constructor
+1. Default constructor -
+      - A constructor that has no parameter is known as default constructor in Java.
+      When a class does not declare a constructor, Java compiler automatically adds a constructor for that class.
+
 2. Parametrize constructor
 3. No argument constructor
+
+
+No-argument Vs Default constructor
+
+
+Constructor chaining :
+   - This :  Current class Method/Constructor.
+   - Super : Parent class Methode/Constructor.
+
+
+
+There are the following ways to call a constructor in Java.
+
+   1. A a = new A();    // Here, A is name of class.
+   2. new A();         // It is calling A() constructor.
+   3. super();
+   4. this();
+   5. class.forName(“com.scientecheasy.A”).newInstance();

@@ -1,0 +1,11 @@
+
+What is method overloading ?
+=> When we have more than one method with same name but different parameter list in same class.
+
+
+why we need method overloading?
+
+
+
+    - The return type of the method does not affect overloading.
+    - Access modifiers do not affect method overloading.

@@ -1,6 +1,6 @@
 package oop.constructor;
 
-public class ParameterizeConstructorPerson {
+public class NonParameterizeConstructorPerson {
 
     int age;
     String name;
@@ -8,7 +8,7 @@ public class ParameterizeConstructorPerson {
 
     // Declare non parameterize constructor
 
-    ParameterizeConstructorPerson(){
+    NonParameterizeConstructorPerson(){
         int age = 25;           // initialize parameterize constructor
         String name = "Nik";
         String address = "pune";
@@ -19,7 +19,7 @@ public class ParameterizeConstructorPerson {
     public static void main(String[]args){
 
         // Create object of class and call default constructor
-        ParameterizeConstructorPerson obj = new ParameterizeConstructorPerson();
+        NonParameterizeConstructorPerson obj = new NonParameterizeConstructorPerson();
           // reference - Stack area       =  object - heap area
     }
 

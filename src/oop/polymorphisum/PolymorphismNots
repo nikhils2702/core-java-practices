@@ -1,2 +1,29 @@
 
-What is polymorphism
+What is polymorphism ?
+=> Polymorphism is concept by which can we can perform a single task in different way.      OR
+   - That single entity behaves differently in different cases.
+
+   e.g. - Liquid - 1. Water changes to solid when it frozen. / water changes to gas when it is heated.
+
+Note - Polymorphism only supports in methods.
+
+Types of Polymorphism :
+    1. Static Polymorphism
+    2. Dynamic Polymorphism
+
+
+1. Static Polymorphism :
+    - A polymorphism exabit during compilation.
+    - binding is performed at compile-time, it also known as early binding.
+
+
+2. Dynamic Polymorphism :
+    - A polymorphism exabit during runtime.
+    
+
+
+What is method signature ?
+  - it consist of method name and parameter list.
+   accessModifier returnType name (parameter list ){
+
+   }

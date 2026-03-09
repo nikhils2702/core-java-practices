@@ -1,4 +1,4 @@
-package ArrayPractice;//4. Calculate average of array elements
+package Array;//4. Calculate average of array elements
 
 //Write a Java program to calculate the average value of array elements.
 public class AverageAllValue {

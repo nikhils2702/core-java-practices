@@ -1,4 +1,4 @@
-package ArrayPractice;
+package Array;
 
 public class OddIndexNumber {
 

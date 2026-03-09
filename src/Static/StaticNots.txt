@@ -63,3 +63,5 @@ STATIC BLOCK:
 
   Static block is executed at class loading. hence at the class loading if we want to preform any activity,
   we have to define that inside the static block. e.g. - Native methods
+
+  Differance between static block and methode

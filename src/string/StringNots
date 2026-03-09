@@ -1,0 +1,37 @@
+
+What is string?
+=> String is an object of String class that represents a string of characters.
+       Example. "Laptop" is a String 6 Characters.
+
+
+
+Why need String?
+=> String class is used to create a string object.
+   It is a predefined immutable class that is present in java.lang package.
+   But in Java, all classes are also considered as a data type.
+
+   - Immutable means it cannot be changed.
+
+
+
+How to achive String?
+=> To handle string data in Java, we need an object of string class. Basically,
+   there are three ways to create a string object in Java.
+
+   By string literal.
+   By new keyword.
+   By converting character arrays into strings
+
+
+
+Real time example in string?
+
+What is Immutable?
+=> String class in Java is immutable. The meaning of immutable is unchangeable or unmodifiable.
+
+   -  we cannot perform any changes with the existing string object.
+   This non-changeable behavior is nothing but an immutability concept in Java.
+
+
+Differance between final and immutable
+=>

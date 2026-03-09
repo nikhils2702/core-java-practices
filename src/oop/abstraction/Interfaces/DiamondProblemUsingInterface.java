@@ -7,12 +7,17 @@ interface BB1{
 }
 interface BB2{
     void Display();
+    //void show();
 
 }
 
-public class DimondProblemUsingInterface implements BB1, BB1  {
+public class DiamondProblemUsingInterface implements BB1,BB2  {
     public void Display()
         {
-        System.out.println("Dimond problem using interface");
+        System.out.println("Diamond problem using interface");
         }
 }
+//    public void show()
+//    {
+//        System.out.println("Diamond problem using interface");
+//    }

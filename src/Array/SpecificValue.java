@@ -1,4 +1,4 @@
-package ArrayPractice;//5. Check if array contains a specific value
+package Array;//5. Check if array contains a specific value
 //Write a Java program to test if an array contains a specific value.
 
 public class SpecificValue {

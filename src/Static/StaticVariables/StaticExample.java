@@ -7,13 +7,13 @@ public class StaticExample {
     public static void main(String[]args){
 
         StaticExample obj = new StaticExample();
-        obj.var1=10;
-        obj.var2=20;
+        obj.var1=100;
+        obj.var2=200;
 
 
         StaticExample obj2 = new StaticExample();
-        obj2.var1=30;
-        obj2.var2=40;
+        obj2.var1=300;
+        obj2.var2=400;
 
         System.out.println(obj.var1);
         System.out.println(obj.var2);
