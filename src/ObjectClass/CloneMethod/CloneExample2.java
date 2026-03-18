@@ -1,4 +1,4 @@
-package ObjectClass;
+package ObjectClass.CloneMethod;
 
 class Test implements Cloneable {
     int i;

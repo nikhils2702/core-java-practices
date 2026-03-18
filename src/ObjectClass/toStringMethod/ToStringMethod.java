@@ -1,4 +1,4 @@
-package ObjectClass;
+package ObjectClass.toStringMethod;
 
 public class ToStringMethod {
     String name;

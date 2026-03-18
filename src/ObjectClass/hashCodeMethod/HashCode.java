@@ -1,4 +1,4 @@
-package ObjectClass;
+package ObjectClass.hashCodeMethod;
 
 public class HashCode {
 

@@ -1,4 +1,4 @@
-package ObjectClass;
+package ObjectClass.equalMethod;
 
 public class EqualsMethod {
      String name;

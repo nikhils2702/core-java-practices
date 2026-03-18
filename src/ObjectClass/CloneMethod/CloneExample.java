@@ -1,4 +1,4 @@
-package ObjectClass;
+package ObjectClass.CloneMethod;
 import java.lang.Cloneable;
 
 class Animal implements Cloneable {
