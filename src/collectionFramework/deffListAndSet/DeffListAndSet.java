@@ -1,4 +1,4 @@
-package collectionFramework.collection;
+package collectionFramework.deffListAndSet;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -8,6 +8,6 @@ public class DeffListAndSet {
 
         List l =new ArrayList();
 
-        
+
     }
 }

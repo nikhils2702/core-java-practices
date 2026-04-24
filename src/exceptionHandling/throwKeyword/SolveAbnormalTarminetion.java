@@ -1,4 +1,4 @@
-package exceptionHandling.throwException;
+package exceptionHandling.throwKeyword;
 
 public class SolveAbnormalTarminetion {
 

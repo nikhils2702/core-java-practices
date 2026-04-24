@@ -1,4 +1,4 @@
-package string.stringmethods;
+package string.stringmethods.lengthMethode;
 
 public class lengthMethod {
 

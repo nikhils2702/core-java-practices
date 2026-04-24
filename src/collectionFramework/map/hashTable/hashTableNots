@@ -1,0 +1,37 @@
+
+What is HashTable?
+  - HashTable is direct implemented class of map interface.
+
+  Syntax:
+      package java.util;
+     class Hashmap implements Map{
+           //constructor
+           //method
+     }
+
+  - It is an Legacy class and was introdused in JDK 1.0 version.
+  - HashTable underline data Structure is hashtable.
+
+HashTable Properties:
+  - HashTable Contains data in key value pair and each key value pair is known as entry.
+  - In HashTable, Keys Should be unique value can be duplicate.
+  - HashTable can Store hetrogeneous element or different type elements at key Position.
+  - We cannot store null value in hashtable.
+  - HashTable does not follows the insertion and sorting order.
+  - HashTable are Synchronized data structure
+
+
+WORKING OF HASHTABLE:
+
+ Hashtable  ht = new Hashtable();  // In the HashTable Total 0 - 10 index.
+    ht.put(106,"nikhil")
+
+-    formula:
+       - hashcode % 11 = rem
+       - 106 % 11 = 7 // 106 "nikhil" stores in 7th index of Hashtable.
+
+    ht.put(102,"shinde");
+      - 102 % 11 = 3 //  102 "shinde" stores in 3rd index of Hashtable.
+-
+    ht.put(108,"pune");
+      - 108 % 11 = 9  //  108 "pune" stores in 9th index of Hashtable.

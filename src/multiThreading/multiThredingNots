@@ -1,0 +1,32 @@
+
+
+there are two types of multi threading-
+
+1. Process based
+2. Thread Based
+
+- When camapear with the old languages Devloping multi threading application in java is very easy java provide inbulild supports in multitreding
+with reach API  [Thread, Runnable, Thread Group]
+
+
+What is Differance Between obj.Start() and Obj.Run().
+
+1. Start():
+    if we start() sepret flow will be created. new thread will be a created, witch is case of responsible run method
+    -
+
+Thread Schedular :
+   - it is the part of the JVM. it is the responcible to schedule threads. that is if multiple threads are waiting
+   to get the chance of execution then witch order threads will executed is desided by thread schedular.
+   - we cant expect exact algoritham fallow by thread schedular it is varrid from JVM to JVM.
+
+   Hence, we cant expect thread execution order and exact output.
+
+   Hence, whenewer sechuation comes  multithreding there is no garuntee for exact output but we can provide several
+   possible output.
+
+
+start(): This is the "magic" method. When you call it, Java asks the Operating System to create a new,
+separate execution thread. Once that thread is ready, the JVM automatically calls the run()
+method inside that new thread.
+

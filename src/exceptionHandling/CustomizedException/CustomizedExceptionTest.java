@@ -1,4 +1,9 @@
-package exceptionHandling.CostomizedException;
+package exceptionHandling.CustomizedException;
 
-public class CostomizedExceptionTest {
+public class CustomizedExceptionTest extends RuntimeException{
+
+    CustomizedExceptionTest(String s){
+        super(s);
+    }
+
 }

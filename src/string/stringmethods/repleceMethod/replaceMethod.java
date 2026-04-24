@@ -1,4 +1,4 @@
-package string.stringmethods;
+package string.stringmethods.repleceMethod;
 
 public class replaceMethod {
 

@@ -1,0 +1,13 @@
+
+
+What is Functional Interface?
+   - which contains single abstract method single abstract method(SAM).
+
+
+   Runnable --> run()
+   Callable --> call()
+   Comparable --> compareTo()
+   ActionListener --> actionPerformed()
+
+
+@FunctionalInterface (anotation)

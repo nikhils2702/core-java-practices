@@ -1,4 +1,4 @@
-package innerClass;
+package innerClass.normalInnerClass;
 
 public class Univarcity {
 

@@ -1,4 +1,4 @@
-package string.stringmethods;
+package string.stringmethods.trimMethode;
 
 public class trimMethod {
 

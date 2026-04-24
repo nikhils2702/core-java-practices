@@ -31,7 +31,7 @@ class Student implements Cloneable {
             try {
                 // 1. Setup Original Data
                 Address puneAddress = new Address("Pune");
-                //Student student1 = new Student("Nikhil","Pune");
+                Student student1 = new Student("Nikhil", puneAddress);
 //
                 // 2. Perform the Deep Clone
                 Student student2 = (Student) student1.clone();

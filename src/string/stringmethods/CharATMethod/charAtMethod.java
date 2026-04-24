@@ -1,4 +1,4 @@
-package string.stringmethods;
+package string.stringmethods.CharATMethod;
 
 public class charAtMethod {
 

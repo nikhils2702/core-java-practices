@@ -11,12 +11,18 @@ class ThreadExample extends Thread{
             }
         }
             catch(InterruptedException e){
-                System.out.println("i am interrup");
+                System.out.println("i am interrupted");
             }
     }
 }
-public class ThreadInterraptedExample {
+public class ThreadInterruptedExample {
     public static void main(String[] args) {
+        ThreadExample obj = new ThreadExample();
+
+        obj.start();
+        obj.interrupt();
+
+        System.out.println("end of main thread");
 
     }
 }

@@ -1,0 +1,26 @@
+
+
+what is map?
+ = map is an interface witch is present in java.util package.
+
+ NOTE :- map is doesnot inharet collection interface.
+
+ Syntax :
+
+      package java.util;
+
+        public interface Map{
+            // methods
+            //constructor
+        }
+
+ - map is introduced in JDJ1.2 Version.
+
+
+ PROPERTIES :
+
+    - map stores data in kay value pair.
+    - In Map keys Should be unique.
+    - In map, we can store maximum one null value in key.but
+    we can store number of null value.
+    - map does not follow the sorting and insertion order.

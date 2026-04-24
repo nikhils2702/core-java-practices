@@ -1,4 +1,4 @@
-package string.stringmethods;
+package string.stringmethods.toUpperCaseMethod;
 
 public class toUpperCasetoLowerCase {
 

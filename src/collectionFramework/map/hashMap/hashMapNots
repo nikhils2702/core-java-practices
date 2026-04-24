@@ -1,0 +1,23 @@
+
+What is HashMap?
+  - Hashmap is an Implemented class of map interface.
+
+  Syntax :
+
+     package java.util;
+     class Hashmap implements Map, cloneble, serializable{
+          // Methods
+          //constructor
+
+-  Hashmap was introdused in 1.2 varsion.
+ - hashmap underline data structure "hashtable".
+
+
+properties of hashmap:
+  - Hashmap Store the value kay value pair.
+  - NOTE - Each kay value pairs is known as entry.
+  - in hashmap kay should always be unique but value can be duplicate.
+  - Hashmap can contain maxim one null value in key but it can store multiple null values in value.
+  - hashmap can contain heterogeneous element.
+  - hashmap desnot follow in sorting and insertion order.
+  - hashmap is non syncronized dataStructure.

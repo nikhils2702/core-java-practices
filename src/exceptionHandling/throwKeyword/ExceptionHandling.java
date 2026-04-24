@@ -1,4 +1,4 @@
-package exceptionHandling.throwException;
+package exceptionHandling.throwKeyword;
 
 import java.io.IOException;
 

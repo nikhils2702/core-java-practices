@@ -1,0 +1,16 @@
+
+What is Data Structure
+- It is the way by which we can store the data in efficient way.
+
+
+Type of DataStructure:
+   1. Primitive Data Structure(eg. Boolean,char,byte,short,int,long )
+        - primitive used in develop simple application (eg. Calculator,SnakeGame,Currency Convater)
+   2. Non-Primitive Data Structure
+        - Non-Primitive used in (eg. e-Commerce,social Networking,Banking)
+        -Because application run fast
+
+        2. Non-Primitive Data Structure:
+            1. Linear Data Structure (eg. String,Array,List,Set,Queue,ArrayList,LinkedList,HashSet,LinkHashset)
+            2. Non-Linear Data Structure (eg. Graph,Trees)
+

@@ -1,0 +1,72 @@
+
+What is lambda Expression?
+ -It is an anonymous function (Nameless, No return Type, Without modifiers)
+
+The main objective of lambda Expression:
+  - to bring benefits of functional programing into java
+
+Very Vary Vary Easy!!!
+
+Example:
+
+   Normal Method:
+
+    public void Test(){
+       System.out.println("hallo");
+    }
+
+   Lambda Method:
+
+     () -> System.out.println("hallo");
+
+
+Example2 :
+
+   Normal Method  :
+
+   Public void Test(int a, String b){
+      System.out.println(a);
+      System.out.println(b);
+   }
+
+   Lambda Method:
+
+    (int a, int b) -> System.out.println(a + b);
+
+Example3:
+
+    Normal Method  :
+
+       Public void Test(int n){
+          return n*n;
+       }
+
+       Lambda Method:
+
+        1) (int n) -> n*n;
+
+        2) (n) -> n*n;
+
+        3) n -> n*n;
+
+Example4:
+
+    Normal Method  :
+
+      public void m1(String s){
+         return s.length();
+      }
+
+    Lambda Method:
+
+        s -> s.length();
+
+1
+    n -> return n*n; --> invalid
+    n -> {return n*n;};--> valid
+    n -> {return n*n}; --> invalid
+    n -> {n*n;}; --> invalid
+    n -> n*n; --> valid
+
+    Note : - without curly braces we cannot use return keyword. compiler will consider return value automatically
+           - Within curly braces if we wont to return some value compulsory we should use return statement.

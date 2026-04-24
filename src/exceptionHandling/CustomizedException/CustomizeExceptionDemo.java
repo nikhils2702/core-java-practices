@@ -2,18 +2,21 @@ package exceptionHandling.CustomizedException;
 
 class TooYongException extends RuntimeException{
     TooYongException(String s){
+
         super(s);
     }
 }
 class TooOldException extends RuntimeException{
     TooOldException(String s){
+
         super(s);
     }
 }
 public class CustomizeExceptionDemo{
 
     public static void main(String[] args) {
-        int age = Integer.parseInt(args [70]);
+
+        int age = 24;
 
         if (age> 60){
             throw new TooYongException("please get some more time ... u will get best match");

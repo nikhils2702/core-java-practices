@@ -1,4 +1,4 @@
-package string;
+package string.Immutable;
 
 public class immutableString {
 
