@@ -1,0 +1,93 @@
+What is Collections Framework in Java?
+  - In other words, a collections framework is a class library to handle groups of objects.
+  It is present in java.util package. It allows us to store, retrieve, and update a group of objects.
+
+
+What is need for Collections in Java?
+  - we understand different ways to store values in Java application by JVM.
+  There is a total of four ways to store values in Java application by JVM.
+  - Using variable approach:
+  - Using class object approach:
+  -
+     - So can you think how many values can store in this employee object?
+
+
+NOTE - The Iterable interface contains only one method, called iterator().
+The function of iterator method is to return an Iterator object. Using this iterator,
+we can traverse (iterate) over the elements of a collection one by one.
+
+
+COLLECTION HIERARCHY :
+
+  -All the elements and classes present in java.util.package.
+  - the entire java collection hierarchy around fore core interfaces and two specilized interfaces
+     - Collection Interface
+     - List Interface
+     - Set Interface
+     - Queue Interface
+     - Map interface
+     - Specialized Interface
+        - SortedMap Interface
+        - NavigableMap Interface
+
+  - COLLECTION INTERFACE:
+    - Collection Interface is root of interface of the java collection framework,
+    it is the root of most of the collection  API.
+    - Collection Interface Placed in top of the collection hierarchy in java.
+    - The collection interface extends Iterable Interface in java.
+    - The Iterable Interface contains only one method called Iterator(), function of the iterator method is to return
+    Iterator object.
+    - The List, Set and Queue Interface Extends The collection Interface.
+    - Map Interface Not Extends to collection Interface. because Map store data in key value pair. It is differant in other collection type.
+
+  - LIST INTERFACE :
+    - List Interface Stores element are arranged sequentially order.
+    - list interface stores duplicate elements.
+    - In the list Interface you insert, access,insert and remove element from ant index.
+    - The order of put think in is order you get them out.
+    - There are three main subclass implement list Interface.
+       - ArrayList 1.2v C
+       - LinkedList 1.2v C
+       - Vector  1.0 v LC
+       - ant it is subclass Stack 1.0 v LC
+
+  - SET INTERFACE:
+     - The Set of Interface represent collection of elements contains unique elements.
+     - Set Not Store Duplicate elements.
+     - A Set Does not maintain order of Storing element.
+     - The tree common class implements Set Interface
+       - Hashset 1.2v C
+       - Linked Hashset 1.4 C
+       - TreeSet 1.2v C
+
+  SORTEDSET INTERFACE:
+     - In SortedSet Interface we dont need of use external SortMethod, All data is automatic Sor
+     -
+
+  QUEUE INTERFACE :
+     - QueUe Interface use add and remove element FIFO.
+     - Queue Interface is a Homogenius Group of element, that's add element to end, remove element front.
+     - Queue Interface extend Subclass is
+        -LinkedList,
+        -PriorityQueue,
+        -BlokingQueue,
+        -PriorityBlockingQueue
+        -LinkedBlockingQueue
+     -
+
+  DEQUE INTERFACE:
+     - Deque Interface extends the Queue Interface and provide additinal method support.
+
+  MAP INTERFACE:
+     - Map interface is a not inherited by collection interface. this is not child class of collection interface.
+     - It represent the object stores and retrieves element from key value pairs.
+     - The position of elements in determined by their keys.
+     - Map using technique for soring key value pairs efficiently.
+     - It dont allow to stores the duplicate key.
+     - Common concret subclass thats implements map interface.
+        -HashMap
+        -HashTable
+        -LinkedHashMap
+        -ThreeMap
+        -
+

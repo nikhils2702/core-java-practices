@@ -1,0 +1,19 @@
+What is Iterators?
+ - Iterator is retrieve one by one element in collection objects. They are also called as cursors.
+ - Type Of Iterator or cursors available in java.
+   - Enumeration
+   - Iterator
+   - ListIterator
+   - SplitIterator
+
+ -ENUMERATION:
+   - Enumeration is the first iterator that was introduced in java 1.0v It is located in java.util package.
+   - It is a Legacy Interface that implements to get element one by one in legacy collection classes such as vector.
+   -
+   - How to create enumeration object in java?
+     Enumeration is a Interface so cannot create object of enumeration directly.
+     we can create object of enumeration by calling elements() of the vector class.
+
+     public Enumeration elements()
+
+     Enumeration e = v.elements(); // v is a vector class

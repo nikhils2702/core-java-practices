@@ -1,0 +1,35 @@
+- ArrayList is Dynamic Array that allow to store multiple objects of any class. but there are no fix size.
+It Was added to the java programing in JDK 1.2 as part of the java collection framework.
+
+- Present in java.util.package.
+- ArrayList is Resizable array tha can be Shrink in the memory whenever needed.
+- java ArrayList using DynamicArray Internally for storing group of elements, objects or Data.
+- Arraylist class also implements 3 markar interface serializable,Cloneable and RandomAccess.
+- In that all Markat interface doesnot any method or any member of variable. if is also colled empty interface because
+no feied or no methods present.
+
+- FETURES OF ARRAYLIST:
+  - Resizable Array: Arraylist is a Resizable or growable that means Size of array list is increase or decrease.
+  - Index Besed Structure :
+  - Insertion Order: It maintain the Insertion order.
+  - Null element: Array list store null element.
+  - Non -syncronize: It is non syncronize it means multiple thread use in same time in array list.
+  - Duplicate element: Duplicat element stores in Arraylist.
+
+- Performance: performance is low because Any element remove in array list Shifting of all elements.
+
+- There are three way to initilize array list:
+  1) Using Arrays.asList:
+         ArrayList<> obj = new ArrayList<>(Arrays.asList("1","2","3"));
+  2) Normal Way:
+         ArrayList<> obj1 = new ArrayList<>();
+                 obj1.add();
+                 obj1.add();
+                 obj1.add();
+  3) Using Anonymous class:
+        ArrayList<> obj2 = new ArrayList(){
+                obj2.add();
+                obj2.add();
+                obj2.add();
+        }
+
