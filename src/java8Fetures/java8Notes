@@ -1,0 +1,21 @@
+
+What is LambdaExpression?
+ - Lambda Expression id Anonymous Function.
+     - No Name, No Modifier, No Return Type
+
+Benefits of Lambda.
+  - Reduce Line of code.
+  - Sequential and Parallel execution support by passing behavior as an argument in method.
+  - To call APIs very effectively.
+  - To write a more Readable,Maintainable and Concise code.
+
+Rules of Lambda
+  - If The body of the lambda Expression contains only one statement then curly braces are optional.
+  - java compiler also inter the type of passed in arguments, hence type is optional.
+
+Functional Interface:
+   - If the importance contains only one abstract methods then it is functional interface.(eg. Runnable, callable, Comparable)
+   - To call lambda we required functional interface.
+   - lambda is used to implement functional interface is simple and sloat manner.
+
+

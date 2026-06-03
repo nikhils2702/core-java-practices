@@ -29,6 +29,8 @@ public class ArrayListExample {
         al.set(2,"G");
         al.set(3, null);
 
+
+        System.out.println("Using Enhance for loop");
         for(Object element:al){
             System.out.println(element);
         }

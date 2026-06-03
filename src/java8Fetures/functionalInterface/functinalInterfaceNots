@@ -11,3 +11,11 @@ What is Functional Interface?
 
 
 @FunctionalInterface (anotation)
+
+
+ all methods and working:
+
+Predicate -> Test (true/false)
+Function  -> Apply (convert)
+Consumer  -> Accept (consume)
+Supplier  -> Get (supply)
